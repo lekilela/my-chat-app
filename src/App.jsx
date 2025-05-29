@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
-import SignUpPage from './pages/SignUpPage';
+import Signup from "./components/Signup";
+
 import ChatPage from './pages/ChatPage';
 import { auth } from './firebase';
 import { onAuthStateChanged } from 'firebase/auth';
@@ -33,7 +34,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<LoginPage />} />
-      <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/signup" element={<Signup />} />
       <Route
         path="/chat"
         element={

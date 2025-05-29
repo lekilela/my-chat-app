@@ -69,3 +69,13 @@ body {
   text-align: center;
 }
 
+.gender-select {
+  margin: 12px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-size: 14px;
+}
+.gender-select input[type="radio"] {
+  margin-right: 5px;
+}
