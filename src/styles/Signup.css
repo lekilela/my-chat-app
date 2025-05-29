@@ -1,0 +1,71 @@
+/* Fullscreen background */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D0312D; /* Firestore-like red */
+  font-family: Arial, sans-serif;
+}
+
+/* Signup form wrapper - wider and taller */
+.signup-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px 50px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;  /* Adjust width */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Layout inside the form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input fields */
+.auth-input {
+  padding: 14px;
+  background-color: #f1f1f1;
+  color:black;
+  border: 1px solid #555;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Placeholder styles */
+.auth-input::placeholder {
+  color: black;     /* white placeholder text */
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 1;
+}
+
+/* Submit button */
+.auth-button {
+  padding: 14px;
+  background-color: #FFA000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.auth-button:hover {
+  background-color: #ff8f00;
+}
+
+.signup-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
